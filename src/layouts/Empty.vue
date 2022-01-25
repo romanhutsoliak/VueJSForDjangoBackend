@@ -1,0 +1,24 @@
+<template lang="html">
+  <div class="grey darken-1 empty-layout">
+    <router-view />
+  </div>
+</template>
+
+<script>
+import messages from '@/utils/messages'
+export default {
+  computed: {
+    error() {
+      return this.$store.getters.error
+    }
+  }, 
+  watch: {
+    error(e) {
+      return this.$error(messages[e] || e || 'Something went wrong')
+    }
+  }
+}
+</script>
+
+<style lang="css" scoped>
+</style>

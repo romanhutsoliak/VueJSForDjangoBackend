@@ -1,0 +1,40 @@
+{
+  "name": "crm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@j-t-mcc/vue3-chartjs": "^1.2.0",
+    "@vuelidate/core": "^2.0.0-alpha.27",
+    "@vuelidate/validators": "^2.0.0-alpha.23",
+    "axios": "^0.22.0",
+    "chart.js": "^3.6.2",
+    "core-js": "^3.18.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "register-service-worker": "^1.7.1",
+    "save": "^2.4.0",
+    "v-pagination-3": "^0.1.7",
+    "vue": "^3.2.19",
+    "vue-router": "^4.0.0-0",
+    "vuelidate": "^0.7.6",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.2.19",
+    "@vue/devtools": "^5.3.4",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2"
+  }
+}
